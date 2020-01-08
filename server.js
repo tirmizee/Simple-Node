@@ -1,12 +1,8 @@
-const express = require('express');
-const routes =  require('./routes')
+const app =  require('./app');
 
-const app = express();
+const port = process.env.port || 8081;
 
-routes(app);
-
-const server = app.listen(8081,function(){
+const server = app.listen(port, () => {
     var host = server.address().address;
-    var port = server.address().port;
     console.log("Application Run : http://%s:%s, dir : %s", host, port,__dirname);
 });
