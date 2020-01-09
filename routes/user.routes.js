@@ -8,7 +8,7 @@ const handlerGetIndex = (req, res, next) => {
 
     const ip = req.connection.remoteAddress;
     fs.readFile(path, 'utf-8', (err, data) => {
-        const users = JSON.parse(data);
+        const users = JSON.parse(data);   
         res.status(200).json(users);
     });
 

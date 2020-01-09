@@ -11,4 +11,4 @@ app.use(parser.json());
 app.use('/users', userRoutes);
 app.use('/products', productsRoutes);
 
-module.exports = app;
+module.exports = app; 
