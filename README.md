@@ -1,5 +1,5 @@
 # Simple-Node-API
 
-ssssssssssssss
+แนะนำบทเรียนเกี่ยวกับ Node JS
 
 ## Command 
