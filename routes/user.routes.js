@@ -4,7 +4,7 @@ const fs = require('fs');
 const router = express.Router();
 const path = './resources/users.json';
 
-router.get('/', (req, res, next) => {
+const handlerGetIndex = (req, res, next) => {
 
     const ip = req.connection.remoteAddress;
     fs.readFile(path, 'utf-8', (err, data) => {
@@ -12,9 +12,9 @@ router.get('/', (req, res, next) => {
         res.status(200).json(users);
     });
 
-});
+}
 
-router.get('/:id', (req, res, next) => {
+const handlerGetById = (req, res, next) => {
 
     const id = req.params.id;
     fs.readFile(path, 'utf-8', (err, data) => {
@@ -23,6 +23,8 @@ router.get('/:id', (req, res, next) => {
         res.send(user);
     });
 
- });
+ }
 
+router.get('/', handlerGetIndex);
+router.get('/:id', handlerGetById);
 module.exports = router;

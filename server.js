@@ -1,3 +1,5 @@
+process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
+
 const app =  require('./app');
 
 const port = process.env.port || 8081;
