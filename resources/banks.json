@@ -1,0 +1,42 @@
+{
+    "36" : {
+        "bankId": 36,
+        "bankName": "Sainte-Sophie"
+    }, 
+    "91" : {
+        "bankId": 91,
+        "bankName": "Zhoujiaba"
+    }, 
+    "95" : {
+        "bankId": 95,
+        "bankName": "Plaški"
+    }, 
+    "40" : {
+        "bankId": 40,
+        "bankName": "Arevshat"
+    }, 
+    "96" : {
+        "bankId": 96,
+        "bankName": "Liaodian"
+    }, 
+    "7" : {
+        "bankId": 7,
+        "bankName": "Porto Salvo"
+    }, 
+    "25" : {
+        "bankId": 25,
+        "bankName": "Zhouhe"
+    }, 
+    "93" : {
+        "bankId": 93,
+        "bankName": "Gelgaudiškis"
+    }, 
+    "55" : {
+        "bankId": 55,
+        "bankName": "Mislīyah"
+    }, 
+    "41" : {
+        "bankId": 41,
+        "bankName": "Angra dos Reis"
+    }
+}
